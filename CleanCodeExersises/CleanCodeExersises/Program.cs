@@ -56,10 +56,12 @@ namespace CleanCodeExersises
         /*
          * Solution to Be positive exersise
          */
-        public bool IsLoggedInClean()
+        public bool IsLoggedInClean(bool isNotloggedIn)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            System.Console.WriteLine(!isNotloggedIn ? "Succesfully logged in." : "Failed to logged in.");
+            return !isNotloggedIn; ;
         }
         /*
          * Intermediate exercise
