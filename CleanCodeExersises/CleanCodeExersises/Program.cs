@@ -84,10 +84,15 @@ namespace CleanCodeExersises
          * Solution to ohm Intermediate exercise
          * An intermediate Variable says a lot more them a long expression
          */
-        public bool eligibleClean()
+        public bool eligibleClean(Employee employee)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
+            bool retired = employee.IsRetired;
+            bool retirementAge = employee.Age > 55;
+            bool seniorWorker = employee.YearsEmployed > 10;
+
+            return retired && retirementAge && seniorWorker;
         }
         
         /*
