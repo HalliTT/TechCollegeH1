@@ -112,10 +112,12 @@ namespace CleanCodeExersises
          * Solution to Ternary exersise
          * Use a oneline Ternary.
          */
-        public double GetPriceClean()
+        public double GetPriceClean(bool isPreordered)
         {
-            throw new NotImplementedException();
+            
+            //throw new NotImplementedException();
             //Write your solution here
+            return isPreordered ? 200.00 : 350.00;
         }
         /*
          * Strong type exersise - not done
