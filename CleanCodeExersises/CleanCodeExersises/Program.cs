@@ -30,10 +30,12 @@ namespace CleanCodeExersises
          * Solution to Magic Number exercise
          * Use consts to describe the numbers you are using to your programs.
          */
-        public bool IsLegalDrikingAgeClean()
+        public bool IsLegalDrikingAgeClean(int age)
         {
-            throw new NotImplementedException();
-            //Write your solution here
+            //throw new NotImplementedException();
+            ////Write your solution here
+            const int legalDrinkingAge = 21;
+            return age > legalDrinkingAge;
         }
         /*
          * Be positive exersise
