@@ -4,69 +4,100 @@ namespace Datatype
 {
     class Program
     {
-        public static void PrintVariableInformation(object datatype)
+        public static void PrintVariableInformation(string datatype)
         {
-            Console.WriteLine(datatype);
-            //int sizeOf = sizeof(datatype);
-            //int minVal = datatype.MinValue;
-            //int maxVal = datatype.MaxValue;
+            //Save DataType as string
+            string input = datatype;
+
+            //Check if string can convert to int
+            int intResult;
+            if (int.TryParse(input, out intResult))
+            {
+                Console.WriteLine($"You entered the integer {intResult}");
+
+                Console.WriteLine("Int Size: " + sizeof(int));
+
+                Console.WriteLine("MinValue: " + int.MinValue);
+                Console.WriteLine("MacValue: " + int.MaxValue);
+
+                int intValue = int.MaxValue;
+                UInt64 convertedInt = Convert.ToUInt64(intValue);
+                //Add 1 because of 0
+                UInt64 newInt = convertedInt + convertedInt + 1;
+
+                Console.WriteLine("Value compined: " + newInt);
+
+                return;
+            }
+
+            //Check if bool can convert to bool
+            bool boolResult;
+            if (bool.TryParse(input, out boolResult))
+            {
+                Console.WriteLine($"You entered the bool {boolResult}");
+                return;
+            }
+
+            //Check if string can double to double
+            double doubleResult;
+            if (double.TryParse(input, out doubleResult))
+            {
+                Console.WriteLine($"You entered the bool {doubleResult}");
+
+                Console.WriteLine("Int Size: " + sizeof(double));
+
+                Console.WriteLine("MinValue: " + double.MinValue);
+                Console.WriteLine("MacValue: " + double.MaxValue);
+
+                double doubleValue = double.MaxValue;
+                //Add 1 because of 0
+                double newDouble = doubleValue + doubleValue + 1;
+
+                Console.WriteLine("Value compined: " + newDouble);
+
+                return;
+            }
+
+            //Check if string can convert to char
+            char charResult;
+            if (char.TryParse(input, out charResult))
+            {
+                Console.WriteLine($"You entered the char {charResult}");
+
+                Console.WriteLine("Char Size: " + sizeof(char));
+
+                Console.WriteLine("MinValue: " + char.MinValue);
+                Console.WriteLine("MacValue: " + char.MaxValue);
+
+                int charValue = char.MaxValue;
+                UInt64 convertedChar = Convert.ToUInt64(charValue);
+                //Add 1 because of 0
+                UInt64 newChar = convertedChar + convertedChar + 1;
+
+                Console.WriteLine("Value compined: " + newChar);
+
+                return;
+            }
+
+            else
+            {
+                Console.WriteLine($"You entered the string {input}");
+                return;
+            }
         }
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Write a number");
-            Console.WriteLine("1 for String");
-            Console.WriteLine("2 for Bool");
+            Console.WriteLine("Enter something:");
+            string input = Console.ReadLine();
 
-
-            object menuNumber = Console.ReadLine();
-            //object result;
-
-            switch (menuNumber)
-            {
-                case "1":
-                    PrintVariableInformation(typeof(string));
-                    break;
-                case "2":
-                    PrintVariableInformation(typeof(bool));
-                    break;
-                default:
-                    Console.WriteLine("sorry something went wrong");
-                    break;
-            }
-
-
+            PrintVariableInformation(input);
 
             //Person p = new Person();
             //p.Name = "Frank";
             //Console.WriteLine(p.GetName());
 
 
-            //Console.WriteLine("---------------------INT---------------------");
-            //Console.WriteLine("Int Size: " + sizeof(int));
-
-            //Console.WriteLine("MinValue: " + int.MinValue);
-            //Console.WriteLine("MacValue: " + int.MaxValue);
-
-            //int intValue = int.MaxValue;
-            //UInt64 convertedInt = Convert.ToUInt64(intValue);
-            ////Add 1 because of 0
-            //UInt64 newInt = convertedInt + convertedInt + 1;
-
-            //Console.WriteLine("Value compined: " + newInt);
-            //Console.WriteLine("---------------------------------------------");
-            //Console.WriteLine("---------------------CHAR--------------------");
-            //Console.WriteLine("Char Size: " + sizeof(char));
-
-            //Console.WriteLine("MinValue: " + char.MinValue);
-            //Console.WriteLine("MacValue: " + char.MaxValue);
-
-            //int charValue = char.MaxValue;
-            //UInt64 convertedChar = Convert.ToUInt64(charValue);
-            ////Add 1 because of 0
-            //UInt64 newChar = convertedChar + convertedChar + 1;
-
-            //Console.WriteLine("Value compined: " + newChar);
             //Console.WriteLine("--------------------------------------------");
 
             //int intSize = sizeof(int);
