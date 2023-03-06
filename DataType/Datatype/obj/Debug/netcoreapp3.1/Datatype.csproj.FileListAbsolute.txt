@@ -1,0 +1,14 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.runtimeconfig.dev.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\bin\Debug\netcoreapp3.1\Datatype.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\DataType\Datatype\obj\Debug\netcoreapp3.1\Datatype.genruntimeconfig.cache
