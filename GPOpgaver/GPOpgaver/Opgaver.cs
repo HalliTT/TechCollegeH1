@@ -50,24 +50,30 @@ namespace GPOpgaver
             char[] arrayOfString = s.ToCharArray();
             char[] arrayOfReverseString = new char[s.Length];
 
+            
             int lengthOfString = s.Length - 1;
 
+            //Fill arrayOfReverseString with arrayOfString reversed
             for (int i = 0; i < s.Length; i++)
             {
                 arrayOfReverseString[lengthOfString] = arrayOfString[i];
                 lengthOfString -= 1;
             }
-            for (int i = 0; i < arrayOfReverseString.Length; i++)
-            {
-                Console.WriteLine(arrayOfReverseString[i] == arrayOfString[i]);
-            }
-            for (int i = 0; i < arrayOfReverseString.Length; i++)
-            {
-                Console.WriteLine(arrayOfReverseString[i] == arrayOfString[i]);
-            }
-
-
-            return true;
+            
+            Boolean result = false;
+            // compare
+            for (int i = 0; i < arrayOfString.Length; i++)
+			{
+				if (arrayOfString[i] != arrayOfReverseString[i]){
+                result = false;
+				}
+				else {
+                result = true;
+				}	
+			}
+            Console.Write(arrayOfString)
+            Console.WriteLine(result ? "Is Palindrome" : "Is not Palindrome")
+            return result;
         }
         /*
          * Introduktion til Algoritmer
