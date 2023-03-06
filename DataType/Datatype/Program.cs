@@ -4,6 +4,12 @@ namespace Datatype
 {
     class Program
     {
+        public void PrintVariableInformation(ref var datatype)
+        {
+            //int sizeOf = sizeof(datatype);
+            int minVal = datatype.MinValue;
+            int maxVal = datatype.MaxValue;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("---------------------INT---------------------");
@@ -36,14 +42,19 @@ namespace Datatype
             int intSize = sizeof(int);
             int charSize = sizeof(char);
             int floatSize = sizeof(float);
+            float[] singles = { 1, 678, 2.37E33F, .00415F, 8.9F };
+            int array = Buffer.ByteLength(singles);
+            Console.WriteLine("he");
+            //Console.WriteLine(Buffer.ByteLength(singles));
+            
 
             Console.WriteLine("--------------DIAGRAM OF BYTE---------------");
-            Console.WriteLine("         1 2 3 4 5 6 7 8 9 10 11 12 13 14 15");
+            Console.WriteLine("         1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20");
             Console.Write("Int      ");
             for (int i = 0; i < intSize; i++)
             {
                 Console.Write('*');
-                Console.Write(' ');
+                Console.Write("  ");
             }
             Console.WriteLine("");
 
@@ -51,7 +62,7 @@ namespace Datatype
             for (int i = 0; i < charSize; i++)
             {
                 Console.Write('*');
-                Console.Write(' ');
+                Console.Write("  ");
             }
             Console.WriteLine("");
 
@@ -59,7 +70,14 @@ namespace Datatype
             for (int i = 0; i < floatSize; i++)
             {
                 Console.Write('*');
-                Console.Write(' ');
+                Console.Write("  ");
+            }
+            Console.WriteLine("");
+            Console.Write("Array    ");
+            for (int i = 0; i < array; i++)
+            {
+                Console.Write('*');
+                Console.Write("  ");
             }
             Console.WriteLine("");
 
@@ -78,7 +96,13 @@ namespace Datatype
             //Console.WriteLine("");
 
             Console.WriteLine("--------------------------------------------");
+            Console.WriteLine("------------------ADDRESS-------------------");
+            int numberInt = 27;
+            int pointerToNumber = numberInt;
 
+            Console.WriteLine($"Value of the variable: {numberInt}");
+            Console.WriteLine($"Address of the variable: {(long)pointerToNumber:X}");
+            Console.WriteLine("--------------------------------------------");
         }
     }
 }
