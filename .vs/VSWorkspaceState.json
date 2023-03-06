@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\GPOpgaver",
     "\\GPOpgaver\\GPOpgaver"
   ],
-  "SelectedNode": "\\GPOpgaver",
+  "SelectedNode": "\\GPOpgaver\\GPOpgaver\\Opgaver.cs",
   "PreviewInSolutionExplorer": false
 }
