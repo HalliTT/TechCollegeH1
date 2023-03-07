@@ -76,6 +76,10 @@ namespace Datatype
 
                 Console.WriteLine("Value compined: " + newChar);
 
+                //long pointerToNumber = Convert.ToInt32(datatype);
+                //Console.WriteLine($"Value of the variable: {datatype}");
+                //Console.WriteLine($"Address of the variable: {(long)pointerToNumber:X}");
+
                 return;
             }
 
@@ -89,6 +93,13 @@ namespace Datatype
         static void Main(string[] args)
         {
             Console.WriteLine("Enter something:");
+            Console.WriteLine("--One character for char e.g: 'g'");
+            Console.WriteLine("--Whole number for int e.g: '568'");
+            Console.WriteLine("--Decimal number for double e.g: '2,5'");
+            Console.WriteLine("--True or false for bool e.g: 'true'");
+            Console.WriteLine("--Word or numbers and characters for string e.g: 'Hello'");
+            Console.WriteLine("");
+
             string input = Console.ReadLine();
 
             PrintVariableInformation(input);
