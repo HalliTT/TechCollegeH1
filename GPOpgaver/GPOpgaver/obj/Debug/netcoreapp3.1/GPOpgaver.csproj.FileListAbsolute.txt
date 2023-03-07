@@ -1,0 +1,40 @@
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.exe
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.deps.json
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.json
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.dev.json
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csprojAssemblyReference.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csproj.CoreCompileInputs.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfoInputs.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfo.cs
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\lkri\Documents\Undervisningsmateriale\Grundlæggende Programmering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.genruntimeconfig.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.exe
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.deps.json
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.json
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.dev.json
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csprojAssemblyReference.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csproj.CoreCompileInputs.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfoInputs.cache
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfo.cs
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\lkri\Documents\Undervisningsmateriale\GrundlæggendeProgrammering\Opgaver\Algorithms\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.genruntimeconfig.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.runtimeconfig.dev.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\bin\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\GPOpgaver\GPOpgaver\obj\Debug\netcoreapp3.1\GPOpgaver.genruntimeconfig.cache
