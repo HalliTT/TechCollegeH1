@@ -84,9 +84,19 @@ namespace GPOpgaver
          */
         public static int StepsInLinearSearch(int searchFor, int[] intergerArray)
         {
+            int count = 0;
+            for (int i = 0; i < intergerArray.Length; i++)
+            {
+                count++;
+                if (intergerArray[i] == searchFor)
+                {
+                    Console.WriteLine("It is on index " + i);
+                    return count;
+                } 
+            }
+            return -1;
 
-
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
             //Write your solution here
         }
         /*
@@ -98,7 +108,27 @@ namespace GPOpgaver
          */
         public static int StepsInBinarySearch(int[] integerArray, int arrayStart, int arrayEnd, int searchFor)
         {
-            throw new NotImplementedException();
+            int count = 0;
+            while (arrayStart <= arrayEnd)
+            {
+               count++;
+               int arrayMid = (arrayStart + arrayEnd) / 2;
+               if (integerArray[arrayMid] == searchFor)
+                {
+                    Console.WriteLine("It is on index " + ++arrayMid);
+                    return count;
+                }
+               else if(integerArray[arrayMid] > searchFor)
+                {
+                    arrayEnd = arrayMid - 1;
+                }
+               else
+                {
+                    arrayStart = arrayMid + 1;
+                }
+            }
+            return -1;
+            //throw new NotImplementedException();
             //Write your solution here
         }
         /*
@@ -108,7 +138,21 @@ namespace GPOpgaver
          */
         public static int InsertSortedList(List<int> sortedList, int insert)
         {
-            throw new NotImplementedException();
+            int count = 0;
+            for(int i = 0; i < sortedList.Count; i++)
+            {
+                count++;
+                if(sortedList[i] == insert)
+                {
+
+                    sortedList.Insert(i, insert);
+                    return count;
+
+                }
+                Console.WriteLine(i);
+            }
+            return -1;
+            //throw new NotImplementedException();
             //Write your solution here
         }
         /*
