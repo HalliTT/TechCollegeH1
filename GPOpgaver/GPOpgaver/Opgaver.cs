@@ -142,7 +142,7 @@ namespace GPOpgaver
             for(int i = 0; i < sortedList.Count; i++)
             {
                 count++;
-                if(sortedList[i] == insert)
+                if(sortedList == insert)
                 {
 
                     sortedList.Insert(i, insert);
