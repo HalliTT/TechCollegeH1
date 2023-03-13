@@ -1,25 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lkri\\source\\repos\\RapFinands\\RapFinands\\RapFinands.csproj": {}
+    "C:\\Users\\haral\\Documents\\GitHub\\TechCollegeH1Alone\\RapFinands\\RapFinands.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lkri\\source\\repos\\RapFinands\\RapFinands\\RapFinands.csproj": {
+    "C:\\Users\\haral\\Documents\\GitHub\\TechCollegeH1Alone\\RapFinands\\RapFinands.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lkri\\source\\repos\\RapFinands\\RapFinands\\RapFinands.csproj",
+        "projectUniqueName": "C:\\Users\\haral\\Documents\\GitHub\\TechCollegeH1Alone\\RapFinands\\RapFinands.csproj",
         "projectName": "RapFinands",
-        "projectPath": "C:\\Users\\lkri\\source\\repos\\RapFinands\\RapFinands\\RapFinands.csproj",
-        "packagesPath": "C:\\Users\\lkri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lkri\\source\\repos\\RapFinands\\RapFinands\\obj\\",
+        "projectPath": "C:\\Users\\haral\\Documents\\GitHub\\TechCollegeH1Alone\\RapFinands\\RapFinands.csproj",
+        "packagesPath": "C:\\Users\\haral\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\haral\\Documents\\GitHub\\TechCollegeH1Alone\\RapFinands\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lkri\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\haral\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,29 +39,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.416\\RuntimeIdentifierGraph.json"
         }
       }
     }
