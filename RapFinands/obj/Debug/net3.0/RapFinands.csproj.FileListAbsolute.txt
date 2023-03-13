@@ -1,0 +1,5 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\RapFinands\obj\Debug\net3.0\RapFinands.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\RapFinands\obj\Debug\net3.0\RapFinands.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\RapFinands\obj\Debug\net3.0\RapFinands.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\RapFinands\obj\Debug\net3.0\RapFinands.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\RapFinands\obj\Debug\net3.0\RapFinands.csproj.CoreCompileInputs.cache
