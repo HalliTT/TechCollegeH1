@@ -42,7 +42,7 @@ namespace GPOpgaver
          */
         public static bool IsPalindrome(string s)
         {
-            s = "hej";
+           
             //throw new NotImplementedException();
             //Write your solution here
 
@@ -71,8 +71,8 @@ namespace GPOpgaver
                 result = true;
 				}	
 			}
-            Console.Write(arrayOfString)
-            Console.WriteLine(result ? "Is Palindrome" : "Is not Palindrome")
+            Console.Write(arrayOfString);
+            Console.WriteLine(result ? " Is Palindrome" : " Is not Palindrome");
             return result;
         }
         /*
@@ -84,6 +84,8 @@ namespace GPOpgaver
          */
         public static int StepsInLinearSearch(int searchFor, int[] intergerArray)
         {
+
+
             throw new NotImplementedException();
             //Write your solution here
         }

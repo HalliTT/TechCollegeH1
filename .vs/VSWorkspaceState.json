@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\GPOpgaver",
-    "\\GPOpgaver\\GPOpgaver"
+    "\\GPOpgaver\\GPOpgaver",
+    "\\GPOpgaver\\XUnitTestGPOpgaver"
   ],
-  "SelectedNode": "\\GPOpgaver\\GPOpgaver\\Opgaver.cs",
+  "SelectedNode": "\\GPOpgaver\\XUnitTestGPOpgaver\\XUnitTestGPOpgaver.sln",
   "PreviewInSolutionExplorer": false
 }
