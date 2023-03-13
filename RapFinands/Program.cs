@@ -47,7 +47,7 @@ namespace Rap_Finands
                 Console.WriteLine("3. Se en oversigt");
                 Console.WriteLine("0. Afslut");
 
-                Console.Write(">");
+                Console.WriteLine(">");
                 string valg1 = Console.ReadLine();
                 int valg = int.Parse(valg1+1);
                 
