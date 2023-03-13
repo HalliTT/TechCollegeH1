@@ -17,6 +17,7 @@ namespace Rap_Finands
         public static List<Konto> konti;
         static void Main(string[] args)
         {
+            Console.Clear();
             Console.WriteLine("Henter alt kontodata");
             
             hent();
@@ -46,7 +47,7 @@ namespace Rap_Finands
                 Console.WriteLine("3. Se en oversigt");
                 Console.WriteLine("0. Afslut");
 
-                Console.WriteLine(">");
+                Console.Write(">");
                 string valg1 = Console.ReadLine();
                 int valg = int.Parse(valg1);
                 
@@ -66,6 +67,7 @@ namespace Rap_Finands
                     default:
                         Console.WriteLine("UGYLDIGT VALGT!!");
                         Console.ReadKey();
+                        Console.Clear();
                         break;
 
                 }
@@ -83,6 +85,7 @@ namespace Rap_Finands
             int tal = int.Parse(Console.ReadLine());
             if (tal < 1 || tal > konti.Count) {
                 Console.WriteLine("Ugyldigt valg");
+                Console.ReadKey();
                 Console.Clear();
                 return null;
             }
@@ -134,6 +137,10 @@ namespace Rap_Finands
             }
         }
         static void dos_udskrivKonto(Konto k) {
+            if (k == null)
+            {
+                return;
+            }
             Console.WriteLine("Konto for "+k.ejer+": "+k.registreringsnr+" "+k.kontonr);
             Console.WriteLine("================");
             Console.WriteLine("Tekst\t\t\t\tBeløb\t\tSaldo");
