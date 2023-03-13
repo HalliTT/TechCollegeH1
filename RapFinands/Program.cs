@@ -49,7 +49,7 @@ namespace Rap_Finands
 
                 Console.WriteLine(">");
                 string valg1 = Console.ReadLine();
-                int valg = int.Parse(valg1+1);
+                int valg = int.Parse(valg1);
                 
                 switch (valg) {
                     case 1:
