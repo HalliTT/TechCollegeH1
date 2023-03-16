@@ -8,7 +8,7 @@ namespace BankAccount
 {
     class ReadKey
     {
-        ///TryReadKey
+        /// TryReadKey
         /// <summary>
         /// Try to parse keyyRead as either int or float depends on variableType
         /// If it does not succe Write error message that can restart program or exit it
@@ -17,7 +17,7 @@ namespace BankAccount
         /// <param name="args">String[] - used for load Main()</param>
         /// <param name="variableType">String - ints, floats used to try to parse</param>
         /// <returns>succe: the parseed keyRead</returns>
-        public static dynamic TryReadKey(string keyRead, string[] args, string variableType)
+        public static dynamic TryReadKey(string keyRead, string variableType)
         {
             try
             {
@@ -43,7 +43,7 @@ namespace BankAccount
                 {
                     return null;
                 }
-                Program.Main(args);
+                Menu.StartMenu();
             }
             return null;
         }

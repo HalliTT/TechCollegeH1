@@ -8,12 +8,9 @@ namespace BankAccount
 {
     class Account
     {
-        //LIST for accounts
-        protected static string accounter = "Halli";
-        protected static string accountName = "Budget";
-        protected static float accountWith;
-        protected static float accountDepo;
-        protected static float accountBalance;
+        //Creating list later on to be able to choose and creat account indstead of hard coded value.
+        protected static string accounter = "Halli", accountName = "Budget";
+        protected static float accountWith, accountDepo, accountBalance;
     }
 
     class Bank : Account
