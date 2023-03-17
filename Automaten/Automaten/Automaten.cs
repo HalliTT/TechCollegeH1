@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Automaten
 {
-    class Payment
+    class Automaten
     {
+
     }
 }
