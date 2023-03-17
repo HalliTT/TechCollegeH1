@@ -1,0 +1,16 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.runtimeconfig.dev.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\ref\Automaten.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\bin\Debug\net5.0\Automaten.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\ref\Automaten.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Automaten\Automaten\obj\Debug\net5.0\Automaten.genruntimeconfig.cache
