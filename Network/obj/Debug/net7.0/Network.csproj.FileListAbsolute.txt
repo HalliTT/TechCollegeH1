@@ -1,0 +1,15 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\bin\Debug\net7.0\Network.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\bin\Debug\net7.0\Network.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\bin\Debug\net7.0\Network.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\bin\Debug\net7.0\Network.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\bin\Debug\net7.0\Network.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\refint\Network.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\Network.genruntimeconfig.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Network\obj\Debug\net7.0\ref\Network.dll
