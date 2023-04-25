@@ -1,0 +1,16 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.runtimeconfig.dev.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ref\ChatServer.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\bin\Debug\net5.0\ChatServer.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ref\ChatServer.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Chat\ChatSserver\obj\Debug\net5.0\ChatServer.genruntimeconfig.cache

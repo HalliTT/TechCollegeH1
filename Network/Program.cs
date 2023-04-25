@@ -11,15 +11,21 @@ namespace server
 
         public static void Main(string[] args)
         {
+            Client.SendRequest("/about.html");
+        }
+
+        public static void StartWebServer()
+        // (string[] args)
+        {
             //1. TCP Listener
             IPAddress address = IPAddress.Parse("0.0.0.0");
             listener = new TcpListener(address, 1337);
             listener.Start();
             Console.WriteLine($"Lytter op {address}:1337");
 
-            //2. wait for connection
             while (true)
             {
+                //2. wait for connection
                 client = listener.AcceptTcpClient();
                 Console.WriteLine("Ny forbindelse");
 
@@ -41,8 +47,7 @@ namespace server
                 string[] removeHTTP = stringAfterGet.Split(" HTTP/");
                 string docs = removeHTTP[0];
 
-
-
+                //Get the type and return correct mime
                 string type = "";
                 if (docs.Length > 2)
                 {
@@ -62,9 +67,6 @@ namespace server
                     type = "text/html";
                 }
 
-                Console.WriteLine(type);
-
-
                 //If route exist else show 404
                 if (File.Exists($"htdocs{docs}"))
                 {
@@ -78,14 +80,13 @@ namespace server
                 }
                 else if (docs == "/img/dog.png")
                 {
-                    //Send Respond to Client(Browser)
-                    var bytes = File.ReadAllBytes($"img/dog.png");
-                    byte[] buffers = Encoding.UTF8.GetBytes($"HTTP/1.1 200 OK\nContentt-Type:image/png\n\n");
-                    byte[] ultimateBuffer = new byte[bytes.Length + buffers.Length];
+                    //     //Send Respond to Client(Browser)
 
-                    buffers.CopyTo(ultimateBuffer, 0);
-                    bytes.CopyTo(ultimateBuffer, buffers.Length);
+                    //     // var bytes = File.ReadAllBytes($"img/dog.png");
 
+                    SendResponse(stream, "200", type, File.ReadAllBytes($"img/dog.png"));
+
+                    //     // byte[] buffers = Encoding.UTF8.GetBytes($"HTTP/1.1 200 OK\nContentt-Type:image/png\n\n");
                 }
                 else
                 {
@@ -118,7 +119,32 @@ Content-Type: {type}; charset=utf-8
 
             stream.Write(responseBytes, 0, response.Length);
 
+            //Write bytes ti client (browser)
+            stream.Close();
+            stream.Close();
+        }
 
+        public static void SendResponse(NetworkStream stream, string code, string type, byte html)
+        {
+            string response = @$"HTTP/1.1 {code} OK
+Content-Type: {type}; charset=utf-8
+
+            {html}";
+
+            byte[] responseBytes = new byte[0];
+
+
+            if (type == "text/html" || type == "text/css")
+            {
+                //Convert text to bytes
+                responseBytes = Encoding.UTF8.GetBytes(response);
+            }
+            else if (type == "image/png")
+            {
+                responseBytes = Encoding.UTF8.GetBytes(response);
+            }
+
+            stream.Write(responseBytes, 0, response.Length);
 
             //Write bytes ti client (browser)
             stream.Close();
