@@ -1,0 +1,37 @@
+﻿Link Note opgave 
+
+Klasser, Nedarvning/inheritance, Abstrakt klasse.
+Note -> Link
+Objecter 
+
+constructors inklapsling (Public, protected, private)
+Hvad er det?
+Hvorfor bruges det?
+
+Polymofisme / polymorphism
+overrider - ToString
+overload - 
+
+Statisk klasser, metode eller proberty.
+
+Lister af objekter
+
+exceptions
+    bruger input
+
+
+
+//////////////PLAN//////////////
+Skærm 1 - Menu (Se noter, opret note)
+Skærm 2 - List med noter (Liste med overskift over alle noter)
+Skærm 3 - Specefike note (Note oplysninger skives ud på skærmen)
+Skærm 3 - Opret noter (Først skriv overskift, så skriv note, så vælge tags)
+Menuen hånteres med switch
+
+///Ekstra///
+1) Kan vælge allerede prefix tags & kan oprette eget tag
+2) Kan vælge i mellem to forskellige note typer (tekst, fil) under oprettelse
+
+Skærm classe (håndtere hele programmet)
+Note classe (Overskrift, note, tags)
+Tags classe statisc med alle tags i og håntere egen tags

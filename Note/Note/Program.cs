@@ -6,7 +6,10 @@ namespace Note
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Instancer
+            Screen newScreen = new Screen();
+            newScreen.ScreenControler();
+
         }
     }
 }
