@@ -8,10 +8,8 @@ namespace Note
 {
     class Screen
     {
-
         List<Note> notes = new List<Note>();
         List<NoteLink> notesLinks = new List<NoteLink>();
-
 
         public Screen()
         {
@@ -35,7 +33,7 @@ namespace Note
             Console.Write(">");
             string lineReadString = Console.ReadLine();
             //response, screen to se after, max written number in console
-            int response = IntConverter(lineReadString, "Screen", 2);
+            int response = IntConverter(lineReadString, "Screen", 3);
 
             //See note
             if(response == 1)
@@ -62,6 +60,16 @@ namespace Note
                 ScreenControler();
 
             }
+            //Create Link note
+            else if (response == 3)
+            {
+                CreateLinkNotes();
+
+                Console.Write(">");
+                Console.ReadKey();
+                ScreenControler();
+
+            }
             Console.ReadKey();
         }
 
@@ -70,6 +78,8 @@ namespace Note
         {
             Console.WriteLine("1) - Se noter");
             Console.WriteLine("2) - Opret noter");
+            Console.WriteLine("3) - Opret link noter");
+
         }
 
         //Show Notes
@@ -127,6 +137,33 @@ namespace Note
             Console.WriteLine("---------");
         }
 
+        //Create Link Notes
+        private void CreateLinkNotes()
+        {
+
+
+            Console.Clear();
+            Console.WriteLine($"Enter a title");
+            Console.Write(">");
+            string lineReadTitleString = Console.ReadLine();
+
+            Console.WriteLine($"Enter note");
+            Console.Write(">");
+            string lineReadNoteString = Console.ReadLine();
+
+            Console.WriteLine($"Enter Link");
+            Console.Write(">");
+            string lineReadLinkString = Console.ReadLine();
+
+            Console.WriteLine($"Enter tags");
+            Console.Write(">");
+            string lineReadTagString = Console.ReadLine();
+
+            notesLinks.Add(new NoteLink { Title = lineReadTitleString, Content = lineReadNoteString, Tags = new Tag { Tags = lineReadTagString }, Link = lineReadLinkString });
+            Console.WriteLine("---------");
+            Console.WriteLine("Tryk på en vilkårlig tast for at gå tilbage");
+            Console.WriteLine("---------");
+        }
 
         //Try convert to int and menu condition else Error
         private int IntConverter(string response, string WhatScreen, int maxResponseNumber)
@@ -156,8 +193,7 @@ namespace Note
             else if (WhatScreen == "ShowNotes")
             {
                 ShowNotes();
-            }
-            
+            } 
         }
     }
 }

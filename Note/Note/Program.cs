@@ -9,7 +9,6 @@ namespace Note
             //Instancer
             Screen newScreen = new Screen();
             newScreen.ScreenControler();
-
         }
     }
 }
