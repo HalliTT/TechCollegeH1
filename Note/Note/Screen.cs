@@ -10,6 +10,8 @@ namespace Note
     {
 
         List<Note> notes = new List<Note>();
+        List<NoteLink> notesLinks = new List<NoteLink>();
+
 
         public Screen()
         {
@@ -17,6 +19,8 @@ namespace Note
             notes.Add(new Note { Title = "hej jeg er note 2", Content = "Bye Bye Bye", Tags = new Tag { Tags = "Tag2" } });
             notes.Add(new Note { Title = "hej jeg er note 3", Content = "Bye Bye Bye", Tags = new Tag { Tags = "Tag2" } });
             notes.Add(new Note { Title = "hej jeg er note 4", Content = "Bye Bye Bye", Tags = new Tag { Tags = "Tag2" } });
+
+            notesLinks.Add(new NoteLink { Title = "hej jeg er note 4", Content = "Bye Bye Bye", Tags = new Tag { Tags = "Tag2" }, Link = "https://www.dr.dk/drtv/" });
         }
 
         //Controller
@@ -33,6 +37,7 @@ namespace Note
             //response, screen to se after, max written number in console
             int response = IntConverter(lineReadString, "Screen", 2);
 
+            //See note
             if(response == 1)
             {
                 ShowNotes();
@@ -47,13 +52,15 @@ namespace Note
                 Console.ReadKey();
                 ScreenControler();
             }
+            //Create note
             else if (response == 2)
             {
                 CreateNotes();
+
                 Console.Write(">");
-                lineReadString = Console.ReadLine();
-                //Max numver should be note length
-                response = IntConverter(lineReadString, "Screen", 2);
+                Console.ReadKey();
+                ScreenControler();
+
             }
             Console.ReadKey();
         }
@@ -103,13 +110,21 @@ namespace Note
             Console.Clear();
             Console.WriteLine($"Enter a title");
             Console.Write(">");
-            Console.ReadKey();
+            string lineReadTitleString = Console.ReadLine();
+
             Console.WriteLine($"Enter note");
             Console.Write(">");
-            Console.ReadKey();
+            string lineReadNoteString = Console.ReadLine();
+
+
             Console.WriteLine($"Enter tags");
             Console.Write(">");
-            Console.ReadKey();
+            string lineReadTagString = Console.ReadLine();
+
+            notes.Add(new Note { Title = lineReadTitleString, Content = lineReadNoteString, Tags = new Tag { Tags = lineReadTagString } });
+            Console.WriteLine("---------");
+            Console.WriteLine("Tryk på en vilkårlig tast for at gå tilbage");
+            Console.WriteLine("---------");
         }
 
 
