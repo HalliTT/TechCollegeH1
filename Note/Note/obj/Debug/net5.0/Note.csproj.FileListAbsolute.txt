@@ -1,0 +1,16 @@
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.exe
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.deps.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.runtimeconfig.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.runtimeconfig.dev.json
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\ref\Note.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\bin\Debug\net5.0\Note.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.csproj.AssemblyReference.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.AssemblyInfoInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.AssemblyInfo.cs
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.csproj.CoreCompileInputs.cache
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\ref\Note.dll
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.pdb
+C:\Users\haral\Documents\GitHub\TechCollegeH1Alone\Note\Note\obj\Debug\net5.0\Note.genruntimeconfig.cache
